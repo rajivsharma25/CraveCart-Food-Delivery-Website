@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// vite.config.js
 export default defineConfig({
-  base: '/CraveCart-Food-Delivery-Website/',  
   plugins: [react()],
+  base: '/',  // Make sure this is either removed or set to '/'
 })
